@@ -41,25 +41,48 @@ The features from the X DataFrame were standardized using the "StandardScaler fi
 
 ## Deliverable 2: Reducing Data Dimensions Using PCA
 
-You will earn a perfect score for Deliverable 2 by completing all requirements below:
-The PCA algorithm reduces the dimensions of the X DataFrame down to three principal components (10 pt)
-The pcs_df DataFrame is created and has the following three columns, PC 1, PC 2, and PC 3, and has the index from the crypto_df DataFrame (10 pt)
+The PCA algorithm reduces the dimensions of the X DataFrame down to "three principal components".
+
+![21](Images/21.png)
+
+The pcs_df DataFrame was created and has the following three columns: "PC 1, PC 2, and PC 3, and has the index" from the crypto_df DataFrame.
+
+![22](Images/22.png)
 
 
 ## Deliverable 3: Clustering Cryptocurrencies Using K-means
 
-You will earn a perfect score for Deliverable 3 by completing all requirements below:
-The K-means algorithm is used to cluster the cryptocurrencies using the PCA data, where the following steps have been completed:
-An elbow curve is created using hvPlot to find the best value for K (10 pt)
-Predictions are made on the K clusters of the cryptocurrencies’ data (5 pt)
-A new DataFrame is created with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class (5 pt)
+An "elbow curve" is created using hvPlot to find the best value for K.
+
+![31](Images/31.png)
+
+"Predictions" were made on the K clusters of the cryptocurrencies’ data.
+
+![32](Images/32.png)
+
+A new DataFrame was created with the same index as the crypto_df DataFrame and has the following columns: "Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class".
+
+![33](Images/33.png)
 
 
 ## Deliverable 4: Visualizing Cryptocurrencies Results
 
-You will earn a perfect score for Deliverable 4 by completing all requirements below:
-The clusters are plotted using a 3D scatter plot, and each data point shows the CoinName and Algorithm on hover (10 pt)
-A table with tradable cryptocurrencies is created using the hvplot.table() function (3 pt)
-The total number of tradable cryptocurrencies is printed (2 pt)
-A DataFrame is created that contains the clustered_df DataFrame index, the scaled data, and the CoinName and Class columns (5 pt)
-A hvplot scatter plot is created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point (10 pt)
+The clusters were plotted using a 3D scatter plot, and each data point shows the "CoinName and Algorithm on hover".
+
+![41](Images/41.png)
+
+A table with tradable cryptocurrencies was created using the "hvplot.table() function".
+
+![42](Images/42.png)
+
+The total number of "tradable cryptocurrencies" is printed.
+
+![43](Images/43.png)
+
+A DataFrame is created that contains the "clustered_df DataFrame index, the scaled data, and the CoinName and Class columns".
+
+![44](Images/44.png)
+
+A hvplot scatter plot is created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point.
+
+![45](Images/45.png)
