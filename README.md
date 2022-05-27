@@ -6,37 +6,35 @@ The data Martha will be working with is not ideal, so it will need to be process
 
 ## Deliverable 1: Preprocessing the Data for PCA
 
-You will earn a perfect score for Deliverable 1 by completing all requirements below:
-The following five preprocessing steps have been performed on the crypto_df DataFrame:
-All cryptocurrencies that are not being traded are removed (3 pt)
+Cryptocurrencies that are "not being traded" were removed.
 
 ![11](Images/11.png)
 
-The IsTrading column is dropped (3 pt)
+The "IsTrading" column was dropped.
 
 ![12](Images/12.png)
 
-All the rows that have at least one null value are removed (3 pt)
+All the rows that have "at least one null value" were removed.
 
 ![13](Images/13.png)
 
-All the rows that do not have coins being mined are removed (3 pt)
+All the rows that "do not have coins being mined" were removed.
 
 ![14](Images/14.png)
 
-The CoinName column is dropped (3 pt)
+The "CoinName" column was dropped.
 
 ![15](Images/15.png)
 
-A new DataFrame is created that stores all cryptocurrency names from the CoinName column and retains the index from the crypto_df DataFrame (5 pt)
+A new DataFrame was created that stores "all cryptocurrency names from the CoinName column" and retains the index from the crypto_df DataFrame.
 
 ![16](Images/16.png)
 
-The get_dummies() method is used to create variables for the text features, which are then stored in a new DataFrame, X (5 pt)
+The "get_dummies() method" was used to create variables for the text features, which are then stored in a new DataFrame, X.
 
 ![17](Images/17.png)
 
-The features from the X DataFrame have been standardized using the StandardScaler fit_transform() function (5 pt)
+The features from the X DataFrame were standardized using the "StandardScaler fit_transform() function".
 
 ![18](Images/18.png)
 
